@@ -1,0 +1,19 @@
+import React from "react";
+import Student from "./student";
+
+const App = () => {
+  const students = [
+    { id: 1, name: "Vikash Singh", age: 24 },
+    { id: 2, name: "Anchal Rai", age: 23 },
+  ];
+
+  return (
+    <>
+      {students.map(({ id, name, age }) => (
+        <Student key={id} stName={name} stAge={age} />
+      ))}
+    </>
+  );
+};
+
+export default App;

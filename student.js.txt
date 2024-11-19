@@ -1,0 +1,10 @@
+import React from "react";
+
+const Student = ({ stName, stAge }) => (
+  <>
+    <h1>Student Info</h1>
+    <h4>Name: {stName} | Age: {stAge}</h4>
+  </>
+);
+
+export default Student;

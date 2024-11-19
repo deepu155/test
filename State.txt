@@ -1,0 +1,14 @@
+import React, { useState } from "react";
+
+const App = () => {
+  const [name, setName] = useState("Sam");
+
+  return (
+    <div>
+      <h2>My Name is {name}</h2>
+      <button onClick={() => setName("Mohammed Faiqh.B")}>Update Name</button>
+    </div>
+  );
+};
+
+export default App;

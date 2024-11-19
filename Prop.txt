@@ -1,0 +1,16 @@
+import React from 'react';
+
+const Student = ({ name, marks }) => (
+  <div>
+    <h1>name: {name}</h1>
+    <p>marks: {marks}</p>
+  </div>
+);
+
+const App = () => (
+  <div>
+    <Student name="abhi" marks={90} />
+  </div>
+);
+
+export default App;
